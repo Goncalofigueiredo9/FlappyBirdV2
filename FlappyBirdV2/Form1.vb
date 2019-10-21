@@ -38,7 +38,7 @@
 
     Private Sub Form1_KeyDown(sender As Object, e As KeyEventArgs) Handles Me.KeyDown
         If e.KeyCode = Keys.Space Then
-            yspeed = -15
+            yspeed = -12
 
         End If
     End Sub

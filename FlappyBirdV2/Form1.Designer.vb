@@ -63,6 +63,7 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.bird)
+        Me.Cursor = System.Windows.Forms.Cursors.Default
         Me.DoubleBuffered = True
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
